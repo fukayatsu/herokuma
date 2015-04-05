@@ -15,3 +15,15 @@ $ heroku config:set HEROKU_API_KEY=`heroku auth:token`
 ```
 vendor/heroku-toolbelt/bin/heroku [command] --app=[another app name]
 ```
+
+or
+
+```
+ruby weekday.rb "vendor/heroku-toolbelt/bin/heroku [command] --app=[another app name]"
+```
+
+or
+
+```
+ruby holiday.rb "vendor/heroku-toolbelt/bin/heroku [command] --app=[another app name]"
+```
